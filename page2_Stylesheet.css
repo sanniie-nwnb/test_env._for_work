@@ -18,20 +18,20 @@
 			
 			#page2_p2{
 				position: relative;
-				height: 50%;
+				height: 600px;
 				width: 900px;
 			}
 
-			#page2_p2 > p{
+			#page2_p2>p{
 				font-size: 20pt;
 				position: absolute;
 				border: 5px dashed red;
 					padding: 10px;
-				text-align: right;
+				text-align: left;
 			}
 
 			#garden-image{
-				position: absolute;
+				position: relative;
 				display: block;
 				height: 300px;
 				width: 350px;
@@ -49,4 +49,3 @@
 					padding: 10px;
 				text-align: center;
 				}
-
