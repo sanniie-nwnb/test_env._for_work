@@ -8,20 +8,21 @@
 			#page2_p{
 				position: relative;
 				}
-			
-			#page2_p>p{
-				font-size: large;
-				font-style: italic;
-				text-align: center;
-				color: red;
-			}
-			
+
 			#page2_p2{
 				position: relative;
 				height: 600px;
 				width: 900px;
 			}
 
+			#page2_p>p{
+				font-size: large;
+				font-style: italic;
+				text-align: center;
+				color: red;
+				float: right;
+			}
+			
 			#page2_p2>p{
 				font-size: 20pt;
 				position: absolute;
@@ -49,4 +50,5 @@
 				text-align: center;
 				float: left
 				}
+
 
