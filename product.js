@@ -4,7 +4,7 @@ const product = {
   id: "hf-000-sn-test",
   name: "テスト用-ヘッドフォン",
   category: "オーディオ",
-  price: 32,000,
+  price: 32000,
   skus: [
     { code: "BLACK", label: "ブラック" },
     { code: "WHITE", label: "ホワイト" },
@@ -23,4 +23,5 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("sku-silver").addEventListener("click", () => {
     console.log(`閲覧: ${product.name} - ${product.skus[2].label}`);
   });
+
 });
