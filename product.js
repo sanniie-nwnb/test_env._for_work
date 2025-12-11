@@ -1,4 +1,3 @@
-
 // 商品データ
 const product = {
   id: "hf-000-sn-test",
